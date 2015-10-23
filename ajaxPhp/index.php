@@ -26,7 +26,6 @@ function showHint(str)
 	xmlhttp.send();
 }
 </script>
-</head>
 
 <p><b>在输入框中输入一个姓名:</b></p>
 <form>
