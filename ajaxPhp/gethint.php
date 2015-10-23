@@ -30,12 +30,13 @@ $a[]="Elizabeth";
 $a[]="Ellen";
 $a[]="Wenche";
 $a[]="Vicky";
+$a[]="林琳琳";
 
 //从请求URL地址中获取 q 参数
 $q=$_GET["q"];
 
 //查找是否由匹配值， 如果 q>0
-if (strlen($q) > 0)
+if (strlen($q) > 0) 
 {
 $hint="";
 for($i=0; $i<count($a); $i++)
